@@ -102,7 +102,7 @@ public class RecyclerViewAnimator {
                     }
                 });
 
-                // Ask for a "spring" from 0 to HEIGHT.
+                // Set the spring in motion; moving from 0 to height
                 spring.setEndValue(mHeight);
             }
         };
